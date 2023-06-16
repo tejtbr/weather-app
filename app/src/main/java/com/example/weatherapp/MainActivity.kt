@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
             }
             return response
         }
-
         override fun onPostExecute(result: String?) {
             super.onPostExecute(result)
             try {
