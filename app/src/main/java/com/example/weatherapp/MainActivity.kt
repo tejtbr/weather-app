@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
             findViewById<RelativeLayout>(R.id.mainContainer).visibility = View.GONE
             findViewById<TextView>(R.id.errorText).visibility = View.GONE
         }
-
         override fun doInBackground(vararg params: String?): String? {
             var response:String?
             try{
